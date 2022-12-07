@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 112, 65);
+}
+#calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+}
+/*pantalla de visualización:*/
+#display {
+    width: 60%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    border: black 0.2vw solid;
+    border-radius: 2px;
+    background-color: rgb(91, 91, 92);
+}
+/*botones numeros y operaciones: */
+.botones{
+    display: block;
+    width: 10em;
+    height: 15em;
+    padding: 10px;
+    background-color: rgb(139, 136, 136);
+}
+.botones > #btn4,#bt5,#bt6,#btn-div,#btn-multi,#btn1,#btn2,#btn3,#btn0,#btn-resta,#btn-suma,#btn-igual{
+    width: 30px;
+    height:30pxm;
+}
